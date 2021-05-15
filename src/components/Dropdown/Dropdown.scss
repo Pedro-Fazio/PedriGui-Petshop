@@ -1,0 +1,78 @@
+$line-color: #dadce0;
+
+.dd-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    // border: 1px solid $line-color;   
+    position: absolute;
+    // border: 1px solid red;
+    left: 0;
+    top: 3em; 
+    width: 90%;
+    height: calc(100% - 0.5em);
+    margin: 0;
+}
+
+.dd-header {
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    cursor: pointer;
+    // border: 1px solid red;    
+}
+
+.dd-header-title {
+    display: flex;
+    flex: 1;
+    padding: 0 15px;    
+    // width: 300px;
+    justify-content: space-between;
+    // background-color: grey;
+    // border: 1px solid green;
+}
+
+.dd-list {
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    padding: 0 15px;
+    cursor: pointer;    
+    margin: 0;
+    margin-top: 3m;
+    width: 100%;
+    // width: calc(100% - 0.5em);
+    background-color: #ffffff;
+    border: 1px solid $line-color;
+}
+
+.dd-list-item {
+    display: flex;
+    flex: 1;
+    width: 94%;
+    border: .5px solid $line-color;
+    border-left: 0;
+    border-right: 0;
+    // border-bottom: 0;
+    border-top: 0;
+    margin: 0.1em 0;
+    overflow: hidden;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.fa-check {
+    padding-left: 0.2em;
+}
+
+.align-right {
+    justify-self: flex-end !important;
+    // border: 1px solid red;
+}

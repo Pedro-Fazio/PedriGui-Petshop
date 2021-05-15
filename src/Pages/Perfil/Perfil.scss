@@ -1,0 +1,126 @@
+$foto-radius: 200px;
+
+#Perfil {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Perfil-container {    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 78vh;
+}
+
+.calendar {
+    height: fit-content;
+}
+
+.Perfil-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    padding: 3em 0;
+}
+
+.user-data-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.user-data-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    h2.user-container-label {
+        font-size: 1.5em;
+    }
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+}
+
+.info-label {
+    margin-right: 1.2em;
+}
+
+.info-data {
+    background-color: grey;
+    padding: 0.25em 0.4em;
+    border-radius: 2px;
+    display: flex;
+    flex: 1;
+}
+
+.edit-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    border: 0;
+    // border: 1px solid red;
+}
+
+
+.foto-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    img {
+        width: $foto-radius;
+        height: $foto-radius;
+        border-radius: 50%;
+    }
+}
+
+.actions-container {
+    display: flex;
+    flex: 1;
+}
+
+.action-list {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    h2 {
+        padding-left: 0.2em;
+    }
+}
+
+
+.action-item {
+    width: 170px;
+    padding: 0.4em .5em;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: #333333;
+    background-color: yellow;
+    margin-bottom: 0.6em;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.patinha {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    padding-right: 10em;
+}
+
+
+

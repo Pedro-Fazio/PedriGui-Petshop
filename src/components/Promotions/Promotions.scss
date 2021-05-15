@@ -1,0 +1,119 @@
+.Promotions-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1% 0;
+    background-image: url('../../Images/patterns/home.png');
+}
+
+.Promotions-wrapper {
+    display: flex;
+    flex-direction: column;
+    // flex: 1;
+    max-width: 1024px;
+
+    & > h1 {
+        align-self: center;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        background-color: yellow;
+        font-family: 'Rationale';
+        font-weight: 500;
+        padding: 0.35em 0.6em;
+        border-radius: 15px;
+        font-size: 2.2em;
+    }
+}
+
+.Promotions-cards-container {
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.Promotions-cards-wrapper {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    overflow-x: hidden;   
+}
+
+.carrousel-box {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    touch-action: pan-y;
+}
+
+.promotions-carrousel {
+    display: flex;
+    align-items: center;
+    width: 103%;
+    justify-content: flex-start;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+}
+
+.seta-parc {
+    cursor: pointer;
+    z-index: 4;
+}
+
+.p-card {
+    display: flex;
+    border-radius: 12px;
+    min-width: 195px;
+    height: 300px;
+    padding: 1% 2%;
+    background-color: #ebe9e9;
+    margin: 0 .7em;
+}
+
+.p-card-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-card-title {
+    font-size: 1.4em;
+    margin: 0.3em 0;
+}
+
+.p-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+    p {
+        margin: 0;
+    }
+    
+}
+.p-card-link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 45%;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 8px;
+    text-decoration: none;
+    border: 0.5px solid yellow;
+}
+.img {
+    width: 95px;
+    height: 86px;
+    background-size: contain;
+}

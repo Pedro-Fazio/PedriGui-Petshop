@@ -1,0 +1,14 @@
+.Product-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecebeb;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 1%;
+}

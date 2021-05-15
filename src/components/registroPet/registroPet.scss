@@ -1,0 +1,106 @@
+#registro-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 78vh;
+
+    img {
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+    }
+}
+
+#registro-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1024px;
+    // border: 1px solid red;
+}
+
+.selecionar-pet {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid blue;
+
+    div, ul {
+        // border: 1px solid green;
+        display: flex;
+        list-style: none;
+    }
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.pet-card {
+    display: flex;
+    border-radius: 12px;
+    min-width: 195px;
+    padding: 1% 2%;
+    margin: 0 .7em;
+    // background-color: #ebe9e9;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-around;
+}
+
+#info {
+    span {
+        width: auto;        
+    }
+    div {
+        margin: 0.5em 0;
+    }
+}
+
+.status-pet {
+    li {
+        margin: 0.5em 0;
+        background-color: #FDF2BB;
+        padding: 0.1em 0;
+        list-style: none;
+    }
+}
+
+.actions-btn {
+    display: flex;
+    // border: 1px solid red;
+    justify-content: space-between;
+    button {
+        cursor: pointer;
+        background-color: #FDF2BB;
+        border: none;
+        border-radius: 5px;
+        padding: 0.4em 0.6em;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.registrar-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        width: 170px;
+        border: none;
+        background-color: #FFF069;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+        color: #333333;
+        padding: 0.3em 0.6em;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+}
+
